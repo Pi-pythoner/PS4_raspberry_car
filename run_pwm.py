@@ -9,7 +9,7 @@ GPIO.setup(13, GPIO.OUT)
 GPIO.setup(16, GPIO.OUT)
 GPIO.setup(40, GPIO.OUT,initial=False)
 
-p1= GPIO.PWM(11, 50)      #right back 
+p1= GPIO.PWM(11, 50)      #right back    定义你前进方向右边的轮子向后转，
 p2= GPIO.PWM(13, 50)      #right front 
 p3= GPIO.PWM(15, 50)      #left front
 p4= GPIO.PWM(16, 50)      #left back
